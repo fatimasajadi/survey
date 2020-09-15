@@ -1,0 +1,17 @@
+.QuestionContainer {
+  margin: 1.5em 0;
+  > p {
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    label {
+      font-weight: 400;
+    }
+  }
+}
