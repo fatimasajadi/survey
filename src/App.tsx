@@ -9,13 +9,31 @@ import { IQuestion } from "./types";
 const questions: IQuestion[] = [
   {
     id: 1,
-    question: "Are you ok?",
-    options: ["Yes", "No", "Maybe"],
+    question:
+      "My physical environment (e.g., office, workspace) is suitable for my job requirements.",
+    options: [
+      "Strongly agree",
+      "Somewhat agree",
+      "Neither agree nor disagree",
+      "Somewhat disagree",
+      "Strongly disagree",
+      "Don't know",
+      "Not applicable",
+    ],
   },
   {
     id: 2,
-    question: "Annie is okay be nazaret be khatere COVID?",
-    options: ["Yes", "No", "Maybe"],
+    question:
+      "I have the information, training and equipment I need to ensure my health and safety at work.",
+    options: [
+      "Strongly agree",
+      "Somewhat agree",
+      "Neither agree nor disagree",
+      "Somewhat disagree",
+      "Strongly disagree",
+      "Don't know",
+      "Not applicable",
+    ],
   },
 ];
 
